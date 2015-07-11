@@ -1,6 +1,6 @@
 function texto() {
 	var a=new Date();
-	var hora = a.getHours() + a.getMinutes;
+	var hora = a.getHours();
 	
 	if(hora <= 11){
 		document.getElementById("text").innerHTML="おはよう";
