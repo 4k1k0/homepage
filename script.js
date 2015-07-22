@@ -5,6 +5,7 @@ function texto() {
 	
 	if(hora<=6){
 		document.getElementById("text").innerHTML=msj[2];
+		document.getElementById("body").style.background = "#000";
 	}
 	else if(hora <= 11){
 		document.getElementById("text").innerHTML=msj[0];
@@ -14,6 +15,7 @@ function texto() {
 	}
 	else{
 		document.getElementById("text").innerHTML=msj[2];
+		document.getElementById("body").style.background = "#000";
 	}
 }
 

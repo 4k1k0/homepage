@@ -5,6 +5,7 @@ body{
 	height:100vh;
 	font-family:Ubuntu Mono;
 	font-size:20px;
+	background:#4d68b3;
 }
 a{
 	outline:none;
@@ -12,7 +13,7 @@ a{
 #wrap{
 	width:100vw;
 	height:100vh;
-	background:#4d68b3 url("mono.png") no-repeat right bottom;
+	background:url("mono.png") no-repeat right bottom;
 	background-size:290px;
 }
 .links{
