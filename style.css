@@ -1,11 +1,13 @@
 *{margin:0px;padding:0px;}
-*::-moz-selection{background:#4d68b3;color:#7796f1;}
+*::-moz-selection{background:none;}
+*::selection{background:none;}
 body{
 	width:100vw;
 	height:100vh;
 	font-family:Ubuntu Mono;
 	font-size:20px;
-	background:#4d68b3;
+	/*background:#4d68b3;*/
+	background:#31363b;
 }
 a{
 	outline:none;
@@ -13,8 +15,6 @@ a{
 #wrap{
 	width:100vw;
 	height:100vh;
-	background:url("mono.png") no-repeat right bottom;
-	background-size:290px;
 }
 .links{
 	width:20%;
@@ -22,7 +22,8 @@ a{
 	float:left;
 }
 h2{
-	color:#7796f1;
+	/*color:#7796f1;*/
+	color:#64686b;
 	padding:10px 0;
 }
 ul{
@@ -33,11 +34,9 @@ a{
 	display:block;
 	padding:5px 0;
 	text-decoration:none;
-	-moz-transition:.3s all;
 }
 a:hover{
 	text-decoration:underline;
-	-moz-transition:.1s all;
 }
 
 #text-wrap{
