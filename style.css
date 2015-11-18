@@ -48,3 +48,15 @@ a:hover{
 	color:#fff;
 	font-size:70px;
 }
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 980px){
+	#text{
+		font-size:60px !important;
+		margin-left:150px !important;
+	}
+	#wrap{
+		background-size: 150px auto !important;
+	}
+}
