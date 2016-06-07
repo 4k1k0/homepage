@@ -1,29 +1,26 @@
-//You need to change the number on line 22 to the exact number of images on your img folder.
-//The images have to be PNG and the namefiles have to be like this: 0.png, 1.png, 2.png, 3.png
-
 function texto() {
+	var files = 43; 		// <---------- Change this value
 	var a=new Date();
 	var hora = a.getHours();
 	var msj = ["おはよう", "こんにちは", "おやすみ"];
-	
-	if(hora<=6){
-		document.getElementById("text").innerHTML=msj[2];
+	var text = document.getElementById("text");
+
+	if(hora >= 21 || hora <= 6){
+		text.innerHTML=msj[2];
 	}
 	else if(hora <= 11){
-		document.getElementById("text").innerHTML=msj[0];
-	}
-	else if(hora<=20){
-		document.getElementById("text").innerHTML=msj[1];
+		text.innerHTML=msj[0];
 	}
 	else{
-		document.getElementById("text").innerHTML=msj[2];
+		text.innerHTML=msj[1];
 	}
 	
-	var num = (Math.floor(Math.random() * 42));
-	document.getElementById("wrap").style.backgroundImage = "url(" + 'img/' + num + '.png' + ")";
-	document.getElementById("wrap").style.backgroundRepeat = "no-repeat";
-	document.getElementById("wrap").style.backgroundPosition = "right bottom";
-	document.getElementById("wrap").style.backgroundSize = "auto 350px";
+	var num = (Math.floor(Math.random() * files) + 1);
+	var wrap = document.getElementById("wrap");
+	wrap.style.backgroundImage = "url(" + 'img/' + num + '.png' + ")";
+	wrap.style.backgroundRepeat = "no-repeat";
+	wrap.style.backgroundPosition = "right bottom";
+	wrap.style.backgroundSize = "auto 250px";
 }
 
 window.onload=texto;
