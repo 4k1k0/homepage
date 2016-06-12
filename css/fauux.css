@@ -1,0 +1,15 @@
+/*
+	Fauux theme, color palette of lainchan.org
+*/
+body{
+	background:#000000;
+}
+h2{
+	color:#d2738a;
+}
+a{
+	color:rgb(193, 180, 146);
+}
+#text{
+	color:#d2738a;
+}

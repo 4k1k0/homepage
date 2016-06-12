@@ -11,6 +11,8 @@ I made it "responsive" because I use i3wm and I open a lot of terminals when I'm
 The current themes are:
 
 - arc-dark.css
+- cyberpunk.css
+- fauux.css
 - numix.css
 - plasma5.css
 
