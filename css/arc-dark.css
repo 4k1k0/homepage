@@ -1,0 +1,19 @@
+/*
+	Arc Dark
+	https://github.com/horst3180/arc-theme/blob/master/common/gtk-3.0/3.14/gtk-dark.css
+*/
+body{
+	background:#22242d;
+}
+h2{
+	color:#383C4A;
+}
+a{
+	color:#D3DAE3;
+}
+a:hover{
+	color:#DCDCDC;
+}
+#text{
+	color:#383C4A;
+}

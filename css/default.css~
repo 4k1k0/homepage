@@ -1,10 +1,12 @@
+/*
+	Default
+*/
 *{margin:0px;padding:0px;}
 *::-moz-selection{background:none;}
 *::selection{background:none;}
 body{
 	font-family:Ubuntu Mono;
 	font-size:20px;
-	background:#31363b;
 }
 #wrap{
 	width:100vw;
@@ -17,7 +19,6 @@ body{
 	float:left;
 }
 h2{
-	color:#64686b;
 	padding:10px 0;
 }
 ul{

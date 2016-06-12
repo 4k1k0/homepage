@@ -1,0 +1,18 @@
+/*
+	Numix theme
+*/
+body{
+	background:#2D2D2D;
+}
+h2{
+	color:#D64937;
+}
+a{
+	color:#535353;
+}
+a:hover{
+	color:#DCDCDC;
+}
+#text{
+	color:#D64937;
+}
