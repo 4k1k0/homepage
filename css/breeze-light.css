@@ -1,0 +1,16 @@
+/*
+	KDE Plasma 5
+	https://techbase.kde.org/Projects/Usability/HIG/Color
+*/
+body{
+	background:#fcfcfc;
+}
+h2{
+	color:#3daee9;
+}
+a{
+	color:#31363b;
+}
+#text{
+	color:#3daee9;
+}

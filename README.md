@@ -11,10 +11,13 @@ I made it "responsive" because I use i3wm and I open a lot of terminals when I'm
 The current themes are:
 
 - arc-dark.css
+- breeze-dark.css
+- breeze-light.css
 - cyberpunk.css
 - fauux.css
+- fluttershy.css
 - numix.css
-- plasma5.css
+- zelda.css
 
 If you want to change the default one you have to change the following line inside the html file:
 ```
