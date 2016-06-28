@@ -7,7 +7,7 @@ I made it "responsive" because I use i3wm and I open a lot of terminals when I'm
 
 ![Screenshot-responsive-desing](https://i.imgur.com/IhmZGSR.png)
 
-You can open a search bar with Alt+S and close it with Esc. If you want to change the default search engine you will have to change the this line at the bottom of the html file:
+You can open a search bar with Alt+S and close it with Esc. If you want to change the default search engine you will have to change this line at the bottom of the html file:
 ```
 <form method="get" action="https://www.duckduckgo.com/">
 ```
