@@ -41,7 +41,24 @@ a:hover{
 	color:#fff;
 	font-size:70px;
 }
-
+#search-wrap{
+	width:100vw;
+	height:100vh;
+	position:absolute;
+	background:rgba(0,0,0,.8);
+}
+#search-wrap form{
+	width:80%;
+	margin:0 auto;
+	line-height:100vh;
+}
+#search-bar{
+	width:98%;
+	padding:10px 0 10px 2%;
+	border:none;
+	border-radius:4px;
+	outline:none;
+}
 @media only screen
 and (min-width : 320px)
 and (max-width : 980px){

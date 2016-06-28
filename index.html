@@ -18,7 +18,7 @@
 		- zelda.css
 	You can contribute with themes if you like.
 -->
-<link rel="stylesheet" href="css/arc-dark.css" />
+<link rel="stylesheet" href="css/numix.css" />
 <script type="text/javascript" src="script.js"></script>
 </head>
 
@@ -27,7 +27,7 @@
 		<!--
 			Links box
 				Title
-				List of urls	
+				List of urls
 		-->
 		<div class="links">
 			<h2>4chan</h2>
@@ -115,8 +115,22 @@
 			</ul>
 		</div>
 		<!---->
-		
-		<h2 id="text"></h2>
+
+		<h2 id="text"></h2> <!-- The area of the japanese text. -->
+
+		<div id="search-wrap">
+			<!--
+				The following search engines works fine with the search bar:
+				  - https://www.bing.com/
+					- https://www.duckduckgo.com/
+				  - https://www.yandex.com/
+			-->
+			<form method="get" action="https://www.duckduckgo.com/">
+				<input type="hidden" name="kh" value="1"> <!-- use https -->
+				<input id="search-bar" name="q" size="15" maxlength="1000" placeholder="Search on the Internet">
+			</form>
+		</div>
+
 	</div>
 </body>
 </html>

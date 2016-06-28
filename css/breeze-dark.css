@@ -15,3 +15,14 @@ a{
 #text{
 	color:#64686b;
 }
+#search-bar{
+	background:;
+}
+#search-bar::-moz-selection{
+	background:none;
+	color:;
+}
+#search-bar::selection{
+	background:#333;
+	color: #fff;
+}

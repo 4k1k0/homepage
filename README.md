@@ -7,6 +7,13 @@ I made it "responsive" because I use i3wm and I open a lot of terminals when I'm
 
 ![Screenshot-responsive-desing](https://i.imgur.com/IhmZGSR.png)
 
+You can open a search bar with Alt+S and close it with Esc. If you want to change the default search engine you will have to change the this line at the bottom of the html file:
+```
+<form method="get" action="https://www.duckduckgo.com/">
+```
+
+![Screenshot-search-bar](https://i.imgur.com/ZLtt31y.jpg)
+
 ## Themes
 The current themes are:
 
@@ -24,21 +31,21 @@ If you want to change the default one you have to change the following line insi
 <link rel="stylesheet" href="css/arc-dark.css" />
 ```
 
-You are free to contribute with themes and suggestions.
+You are free to contribute with themes, suggestions and functions.
 
 ## Configuration
-You can get the font [here](http://font.ubuntu.com/). Or you can install it using the terminal and your distro's package manager. 
+You can get the font [here](http://font.ubuntu.com/). Or you can install it using the terminal and your distro's package manager.
 
-You have to change the value of the 'files' variable in the script.js with the number of images in the img/ directory -this repo has only 5-. The images has to be ***png*** and their names has to be like this: 1.png 2.png, 3.png and please don't use 4K images... it's just a browser.
+You have to change the value of the 'files' variable in the script.js with the number of images in the img/ directory (this repository has only 5). The images has to be ***png*** and their names has to be like this: 1.png 2.png, 3.png and please don't use 4K images... it's just a browser.
 
-You can use the ***rename.sh*** script in order to rename your images in the img/ directory. Don't worry Windows users, you'll have Bash on your OS one of these days. 
+You can use the ***rename.sh*** script in order to rename your images in the img/ directory. Don't worry Windows users, you'll have Bash on your OS one of these days.
 ```
 $ bash rename.sh
 ```
 ## TODO
-- [x] Improve the javascript.
 - [x] Add themes.
 - [ ] Change the themes using javascript (without delay).
+- [ ] Change the search engine using javascript (without the alert bug).
 
 I downloaded the images from [here](https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE) I just resized them. Thanks 4chan!
 If you want more images [/w/](https://boards.4chan.org/w/) is a good place to search.

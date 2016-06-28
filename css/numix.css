@@ -16,3 +16,14 @@ a:hover{
 #text{
 	color:#D64937;
 }
+#search-bar{
+	background:;
+}
+#search-bar::-moz-selection{
+	background:none;
+	color:;
+}
+#search-bar::selection{
+	background:#333;
+	color: #fff;
+}
