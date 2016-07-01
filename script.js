@@ -1,5 +1,5 @@
 window.onload=function(){
-	var files = 5; 								// <---------- Change this value
+	var files = 5; 			// <---------- Change this value
 
 	/**************TEXT**************/
 	var a=new Date();
@@ -23,16 +23,17 @@ window.onload=function(){
 	wrap.style.backgroundRepeat = "no-repeat";
 	wrap.style.backgroundPosition = "right bottom";
 	wrap.style.backgroundSize = "auto 250px";
-/**************SEARCH**************/
+   /**************SEARCH**************/
 	var search_bar = document.getElementById("search-bar");
 	var search_wrap = document.getElementById("search-wrap");
 	var search_visible = false;
 	search_wrap.style.display = 'none';
 	"use strict";
 
-	document.onkeydown = function (e){
-		// if Alt+S
-		if(e.altKey && (e.keyCode == 83)){
+
+	document.onkeyup = function (e){
+		// if S
+		if(e.keyCode == 83){
 			search_visible = true;
 			search_wrap.style.display = 'block';
 			search_bar.focus();
