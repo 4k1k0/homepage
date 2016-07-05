@@ -14,7 +14,9 @@ a{
 	color:#00e600;
 }
 #search-bar{
-	background:;
+	background:#000;
+	color:#00FE00;
+	border:1px solid #00e600;
 }
 #search-bar::-moz-selection{
 	background:none;
@@ -23,4 +25,10 @@ a{
 #search-bar::selection{
 	background:#333;
 	color: #fff;
+}
+::-webkit-input-placeholder{
+   color:#00e600;
+}
+::-moz-placeholder{
+	color:#00e600;
 }

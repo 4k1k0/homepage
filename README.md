@@ -7,10 +7,20 @@ I made it "responsive" because I use i3wm and I open a lot of terminals when I'm
 
 ![Screenshot-responsive-desing](https://i.imgur.com/IhmZGSR.png)
 
-You can open a search bar with S and close it with Esc. If you want to change the default search engine you will have to change this line at the bottom of the html file:
+You can open a search bar with S and close it with Esc. If you want to change the default search engine you have to change the this line at the bottom of the javascript file:
 ```
-<form method="get" action="https://www.duckduckgo.com/">
+window.location = duckduckgo;
 ```
+You can choose between:
+
+- Arch Linux Wiki
+- Bing
+- Duckduckgo
+- Encrypted Google
+- Google
+- Nyaa
+- Reddit
+- Youtube
 
 ![Screenshot-search-bar](https://i.imgur.com/ZLtt31y.jpg)
 
@@ -45,7 +55,6 @@ $ bash rename.sh
 ## TODO
 - [x] Add themes.
 - [ ] Change the themes using javascript (without delay).
-- [ ] Change the search engine using javascript (without the alert bug).
 
 I downloaded the images from [here](https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE) I just resized them. Thanks 4chan!
 If you want more images [/w/](https://boards.4chan.org/w/) is a good place to search.

@@ -1,5 +1,5 @@
 window.onload=function(){
-	var files = 5; 			// <---------- Change this value
+	var files = 5; 								// <---------- Change this value
 
 	/**************TEXT**************/
 	var a=new Date();
@@ -16,6 +16,7 @@ window.onload=function(){
 	else{
 		text.innerHTML=msj[1];
 	}
+	
 	/**************IMAGES**************/
 	var img_num = (Math.floor(Math.random() * files) + 1);
 	var wrap = document.getElementById("wrap");
@@ -23,35 +24,42 @@ window.onload=function(){
 	wrap.style.backgroundRepeat = "no-repeat";
 	wrap.style.backgroundPosition = "right bottom";
 	wrap.style.backgroundSize = "auto 250px";
-   /**************SEARCH**************/
-	var search_bar = document.getElementById("search-bar");
+	
+	/**************SEARCH**************/
 	var search_wrap = document.getElementById("search-wrap");
+	var search_bar = document.getElementById("search-bar");
 	var search_visible = false;
+	search_bar.value = "";
 	search_wrap.style.display = 'none';
 	"use strict";
 
-
 	document.onkeyup = function (e){
 		// if S
-		if(e.keyCode == 83){
+		if((e.keyCode == 83) && (search_visible == false)){
 			search_visible = true;
 			search_wrap.style.display = 'block';
 			search_bar.focus();
 		}
 		// if Esc
-		else if(e.keyCode == 27){
+		else if((e.keyCode == 27) && (search_visible == true)){
 			search_visible = false;
 			search_wrap.style.display = 'none';
 		}
-		/* // <------- I'm still trying to figure it out how make this work without the alert.
 		// if Enter
-		else if((e.keyCode == 13) && search_visible == true){
+		else if((e.keyCode == 13) && (search_visible == true)){
 			var content = search_bar.value.replace(new RegExp(" ", 'g'), "+");
+
+			var bing = ("https://www.bing.com/search?q=" + content);
+			var arch = ("https://wiki.archlinux.org/index.php?title=Special%3ASearch&search=" + content + "&go=Go");
+			var duckduckgo = ("https://duckduckgo.com/?q=" + content + "&ia=about");
+			var eGoogle = ("https://encrypted.google.com/#q=" + content);
+			var google = ("https://google.com/search?q=" + content);
+			var nyaa = ("http://www.nyaa.se/?page=search&term=" + content + "&sort=2");
+			var reddit = ("https://www.reddit.com/search?q=" + content);
+			var youtube = ("https://www.youtube.com/results?search_query=" + content);
 			if(content != ""){
-				alert("You are looking for " + search_bar.value + " on Duckduckgo");
-				window.location.href = ("https://duckduckgo.com/?q=" + content + "&ia=about");
+				window.location = youtube;
 			}
 		}
-		*/
 	}
 }
