@@ -43,6 +43,14 @@ If you want to change the default one you have to change the following line insi
 
 You are free to contribute with themes, suggestions and functions.
 
+## Matrix effect
+![Matrix-Effect](http://i.imgur.com/j2ogcvr.gif)
+To use the Matrix effect you have to edit the ***js/script.js*** file and uncomment this line:
+```
+//Matrix();
+```
+Edit the variables inside ***js/script_matrix.js*** if you want to change the effect.
+
 ## Configuration
 You can get the font [here](http://font.ubuntu.com/). Or you can install it using the terminal and your distro's package manager.
 
