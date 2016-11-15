@@ -1,5 +1,13 @@
 window.onload=function(){
-	var files = 5; 								// <---------- Change this value
+	
+	/* 
+	 * Uncomment to enable the matrix effect
+	 * if you use it you should use the
+	 * cyberpunk.css
+	 */
+	//Matrix();
+	
+	var files = 5; 		/* Change this value */
 
 	/**************************TEXT**************************/
 	var a=new Date();
