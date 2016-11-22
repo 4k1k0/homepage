@@ -44,7 +44,7 @@ If you want to change the default one you have to change the following line insi
 You are free to contribute with themes, suggestions and functions.
 
 ## Video background
-If you can to use a video instead, just uncomment this line in ***js/script.js***
+If you like to use a video instead, just uncomment this line in ***js/script.js***
 ```
 //Video();
 ```
