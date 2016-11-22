@@ -43,22 +43,29 @@ If you want to change the default one you have to change the following line insi
 
 You are free to contribute with themes, suggestions and functions.
 
+## Video background
+If you can to use a video instead, just uncomment this line in ***js/script.js***
+```
+//Video();
+```
+And change the value of *var files* in ***js/script_video.js***
+***This repo doesn't have any videos.***
+
 ## Matrix effect
-![Matrix-Effect](http://i.imgur.com/j2ogcvr.gif)
-To use the Matrix effect you have to edit the ***js/script.js*** file and uncomment this line:
+To use the Matrix effect you have to edit the ****js/script.js**** file and uncomment this line:
 ```
 //Matrix();
 ```
-Edit the variables inside ***js/script_matrix.js*** if you want to change the effect.
+Edit the variables inside ****js/script_matrix.js**** if you want to change the effect.
 
 ## Configuration
 You can get the font [here](http://font.ubuntu.com/). Or you can install it using the terminal and your distro's package manager.
 
-You have to change the value of the 'files' variable in the script.js with the number of images in the img/ directory (this repository has only 5). The images has to be ***png*** and their names has to be like this: 1.png 2.png, 3.png and please don't use 4K images... it's just a browser.
+You have to change the value of the *files* variable in the ***js/script.js*** with the number of images in the img/ directory (this repository has only 5). The images has to be ****png**** and their names has to be like this: 1.png 2.png, 3.png and please don't use 4K images... it's just a browser.
 
-You can use the ***rename.sh*** script in order to rename your images in the img/ directory. Don't worry Windows users, you'll have Bash on your OS one of these days.
+You can use the ****rename.sh**** script in order to rename your images and videos. Don't worry Windows users, you'll have Bash on your OS one of these days.
 ```
-$ bash rename.sh
+$ sh rename.sh
 ```
 ## TODO
 - [x] Add themes.

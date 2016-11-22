@@ -1,14 +1,11 @@
 window.onload=function(){
 	
-	/* 
-	 * Uncomment to enable the matrix effect
-	 * if you use it you should use the
-	 * cyberpunk.css
-	 */
+	/* Uncomment to enable the matrix effect */
 	//Matrix();
 	
-	var files = 5; 		/* Change this value */
-
+	/* Uncomment this if you want a video backgroud. */
+	//Video();
+	
 	/**************************TEXT**************************/
 	var a=new Date();
 	var hour = a.getHours();
@@ -26,6 +23,7 @@ window.onload=function(){
 	}
 	
 	/**************************IMAGES**************************/
+	var files = 5; 		/* Change this value */
 	var img_num = (Math.floor(Math.random() * files) + 1);
 	var wrap = document.getElementById("wrap");
 	wrap.style.backgroundImage = "url(" + 'img/' + img_num + '.png' + ")";
