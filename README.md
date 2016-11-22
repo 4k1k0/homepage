@@ -49,6 +49,7 @@ If you like to use a video instead, just uncomment this line in **js/script.js**
 //Video();
 ```
 And change the value of *var files* in **js/script_video.js**
+
 **This repo doesn't have any videos.**
 
 ## Matrix effect
