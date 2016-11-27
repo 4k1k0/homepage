@@ -6,6 +6,9 @@ window.onload=function(){
 	/* Uncomment this if you want a video backgroud. */
 	//Video();
 	
+	/* Glitch that shitty japanese text */
+	//Glitch();
+	
 	/**************************TEXT**************************/
 	var a=new Date();
 	var hour = a.getHours();
