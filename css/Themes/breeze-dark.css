@@ -1,28 +1,28 @@
 /*
-	KDE Plasma 5
-	This theme goes with the following Firefox CSS theme.
-	https://userstyles.org/styles/118261/kde-plasma-5-dark-breeze-brisa-oscuro
+  KDE Plasma 5
+  This theme goes with the following Firefox CSS theme.
+  https://userstyles.org/styles/118261/kde-plasma-5-dark-breeze-brisa-oscuro
 */
 body{
-	background:#31363b;
+  background:#31363b;
 }
 h2{
-	color:#64686b;
+  color:#64686b;
 }
 a{
-	color:#fcfcfc;
+  color:#fcfcfc;
 }
 #text{
-	color:#64686b;
+  color:#64686b;
 }
 #search-bar{
-	background:;
+  background:;
 }
 #search-bar::-moz-selection{
-	background:none;
-	color:;
+  background:none;
+  color:;
 }
 #search-bar::selection{
-	background:#333;
-	color: #fff;
+  background:#333;
+  color: #fff;
 }

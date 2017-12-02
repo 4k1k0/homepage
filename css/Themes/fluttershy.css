@@ -1,26 +1,26 @@
 /*
-	Fluttershy theme.
+  Fluttershy theme.
 */
 body{
-	background:#F8F798;
+  background:#F8F798;
 }
 h2{
-	color:#E57FB1;
+  color:#E57FB1;
 }
 a{
-	color:#6DC7C8;
+  color:#6DC7C8;
 }
 #text{
-	color:#E57FB1;
+  color:#E57FB1;
 }
 #search-bar{
-	background:;
+  background:;
 }
 #search-bar::-moz-selection{
-	background:none;
-	color:;
+  background:none;
+  color:;
 }
 #search-bar::selection{
-	background:#333;
-	color: #fff;
+  background:#333;
+  color: #fff;
 }

@@ -1,34 +1,34 @@
 /*
-	Cyberpank theme.
+  Cyberpank theme.
 */
 body{
-	background:#000000;
+  background:#000000;
 }
 h2{
-	color:#00e600;
+  color:#00e600;
 }
 a{
-	color:#00FE00;
+  color:#00FE00;
 }
 #text{
-	color:#00e600;
+  color:#00e600;
 }
 #search-bar{
-	background:#000;
-	color:#00FE00;
-	border:1px solid #00e600;
+  background:#000;
+  color:#00FE00;
+  border:1px solid #00e600;
 }
 #search-bar::-moz-selection{
-	background:none;
-	color:;
+  background:none;
+  color:;
 }
 #search-bar::selection{
-	background:#333;
-	color: #fff;
+  background:#333;
+  color: #fff;
 }
 ::-webkit-input-placeholder{
    color:#00e600;
 }
 ::-moz-placeholder{
-	color:#00e600;
+  color:#00e600;
 }

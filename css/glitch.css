@@ -129,21 +129,21 @@
   }
 }
 #text::before, #text::after{
-	position:absolute;
-	display:block;
+  position:absolute;
+  display:block;
 }
 #text::before{
-	content:attr(content);
-	left:2px;
-	overflow: hidden;
-	clip: rect(0, 900px, 0, 0);
-	animation: noise-anim-2 3s infinite linear alternate-reverse;
+  content:attr(content);
+  left:2px;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 #text:after{
-	content:attr(title);
-	bottom:10px;
-	left:-2px;
-	overflow:hidden;
-	clip: rect(0, 900px, 0, 0);
-	animation: noise-anim 2s infinite linear alternate-reverse;
+  content:attr(title);
+  bottom:10px;
+  left:-2px;
+  overflow:hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
 }

@@ -1,29 +1,29 @@
 /*
-	Numix color palette.
+  Numix color palette.
 */
 body{
-	background:#2D2D2D;
+  background:#2D2D2D;
 }
 h2{
-	color:#D64937;
+  color:#D64937;
 }
 a{
-	color:#535353;
+  color:#535353;
 }
 a:hover{
-	color:#DCDCDC;
+  color:#DCDCDC;
 }
 #text{
-	color:#D64937;
+  color:#D64937;
 }
 #search-bar{
-	background:;
+  background:;
 }
 #search-bar::-moz-selection{
-	background:none;
-	color:;
+  background:none;
+  color:;
 }
 #search-bar::selection{
-	background:#333;
-	color: #fff;
+  background:#333;
+  color: #fff;
 }

@@ -1,26 +1,26 @@
 /*
-	Fauux theme, color palette of lainchan.org
+  Fauux theme, color palette of lainchan.org
 */
 body{
-	background:#000000;
+  background:#000000;
 }
 h2{
-	color:#d2738a;
+  color:#d2738a;
 }
 a{
-	color:rgb(193, 180, 146);
+  color:rgb(193, 180, 146);
 }
 #text{
-	color:#d2738a;
+  color:#d2738a;
 }
 #search-bar{
-	background:;
+  background:;
 }
 #search-bar::-moz-selection{
-	background:none;
-	color:;
+  background:none;
+  color:;
 }
 #search-bar::selection{
-	background:#333;
-	color: #fff;
+  background:#333;
+  color: #fff;
 }

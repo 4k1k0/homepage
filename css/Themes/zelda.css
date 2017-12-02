@@ -1,27 +1,27 @@
 /*
-	Zelda theme.
-	http://www.color-hex.com/color-palette/20146
+  Zelda theme.
+  http://www.color-hex.com/color-palette/20146
 */
 body{
-	background:#86a5a9;
+  background:#86a5a9;
 }
 h2{
-	color:#767676;
+  color:#767676;
 }
 a{
-	color:#fdffe0;
+  color:#fdffe0;
 }
 #text{
-	color:#fdffe0;
+  color:#fdffe0;
 }
 #search-bar{
-	background:;
+  background:;
 }
 #search-bar::-moz-selection{
-	background:none;
-	color:;
+  background:none;
+  color:;
 }
 #search-bar::selection{
-	background:#333;
-	color: #fff;
+  background:#333;
+  color: #fff;
 }

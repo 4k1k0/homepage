@@ -1,30 +1,30 @@
 /*
-	Arc Dark
-	https://github.com/horst3180/arc-theme/blob/master/common/gtk-3.0/3.14/gtk-dark.css
+  Arc Dark
+  https://github.com/horst3180/arc-theme/blob/master/common/gtk-3.0/3.14/gtk-dark.css
 */
 body{
-	background:#22242d;
+  background:#22242d;
 }
 h2{
-	color:#383C4A;
+  color:#383C4A;
 }
 a{
-	color:#D3DAE3;
+  color:#D3DAE3;
 }
 a:hover{
-	color:#DCDCDC;
+  color:#DCDCDC;
 }
 #text{
-	color:#383C4A;
+  color:#383C4A;
 }
 #search-bar{
-	background:;
+  background:;
 }
 #search-bar::-moz-selection{
-	background:none;
-	color:;
+  background:none;
+  color:;
 }
 #search-bar::selection{
-	background:#333;
-	color: #fff;
+  background:#333;
+  color: #fff;
 }
