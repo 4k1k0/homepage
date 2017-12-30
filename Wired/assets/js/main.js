@@ -1,20 +1,22 @@
-let setMessageAndBackground = () => {
+let setBackground = () => {
+  let files = 10;
+  let image = (Math.floor(Math.random() * files) + 1);
+
+  let body = document.getElementsByTagName('body')[0];
+  body.style.backgroundImage = 'url(assets/img/' + image + '.jpg)';
+}
+
+let setMessage = () => {
   let date = new Date();
   let hour = date.getHours();
   let text = document.getElementById('message-text');
-  let body = document.getElementsByTagName('body')[0];
-
   if ( hour <= 6 || hour >= 21 ) {
-    body.style.backgroundImage = 'url(https://i.4cdn.org/wg/1514288766586.jpg)';
     text.innerHTML='Good night';
   } else if ( hour <= 11 ) {
-    body.style.backgroundImage = 'url(https://i.4cdn.org/wg/1514312850224.jpg)';
     text.innerHTML='Good afternoon';
   } else {
-    body.style.backgroundImage = 'url(https://i.4cdn.org/wg/1514314336381.jpg)';
     text.innerHTML='Good mornig';
   }
-
 }
 
 let addLinks = () => {
@@ -80,6 +82,7 @@ let addLinks = () => {
 }
 
 window.onload=function() {
-  setMessageAndBackground();
+  setBackground();
+  setMessage();
   addLinks();
 }
