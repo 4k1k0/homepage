@@ -1,0 +1,58 @@
+@import "main";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background: $main-background;
+}
+*::-moz-selection {
+  background: $main-background;
+}
+body {
+  background-size: cover;
+  font-family: $Hack;
+  #links-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      background: rgba($main-background, 0.8);
+      max-width: 50%;
+      ul {
+        list-style: none;
+        li {
+          display: inline-block;
+          a {
+            color: $links-color;
+            display: block;
+            padding: $small;
+            text-decoration: none;
+            text-align: center;
+            transition: 0.3s all;
+            &:hover {
+              //padding-right: $medium;
+              transform: scale(1.1);
+              transition: 0.2s all;
+            }
+          }
+        }
+      }
+    }
+  }
+  #message {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    p {
+      text-align: center;
+      color: $message-color;
+      font-size: $big;
+      padding: $big;
+    }
+  }
+}
